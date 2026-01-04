@@ -1,19 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-pt">
 <head>
-  <meta charset="UTF-8">
-  <title>São Pedro Café Restaurante</title>
-  <link rel="stylesheet" href="index.css">
-  <link rel="shortcut icon" href="Imagens/logo-café-sem-fundo.png" type="image/x-icon">
-  <style>
-    section article h1{
-      font-size: 25px;
-      font-family: 'Courier New', Courier;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Café Restaurante São Pedro</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="pratos.css">
+    <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
-  <header>
+      <header>
     <button id="menu-toggle">☰</button>
     <img src="Imagens/logo-café-sem-fundo.png" alt="Logo São Pedro" class="logo">
     <nav id="menu" class="hidden">
@@ -25,58 +21,80 @@
   </header>
 
   <script src="menu.js"></script>
+    
+    <aside>
+    <h1>O que deseja?</h1>
+    <a href="#secao_peixe">Pratos de Peixe</a>
+    <a href="#secao_carne">Pratos de Carne</a> 
+    <a href="#secao_omeletes">Omeletes</a> 
+    <a href="#secao_massas">Massas</a> 
+    </aside>
 
-<section>
-    <article style="height: 710px; background-color: burlywood;"  >
-        <img src="Imagens/foto_capa_1_1.jpg" alt="Imagem teste" width="900px" height="647px" style="position: relative; top: 40px; left: 260px;">
-    </article>
+    <section>
+      <h1 id="secao_peixe">Pratos de Peixe</h1>
+      <article style="top: 80px;
+    left: 70px">
+         <img src="Imagens/bacalhau_a_bras.jpg" alt="Bacalhau à brás" height="200px" >
+         <h1>Bacalhau À Brás</h1>
+         <p>9,80€</p>
+      </article>
 
-    <article style="height: 550px;">
-      <img src="Imagens/imagem-teste1.jpg" alt="" width="300px" height="400px" style="padding-top: 75px;padding-left: 150px;">
-    </article>
+      <article style="top: 80px; left: 420px;">
+         <img src="Imagens/bacalhau_com_broa.jpg" alt="Bacalhau com broa" height="200px" >
+         <h1>Bacalhau Com Broa</h1>
+         <p>11,20€</p>
+      </article>
 
-    <article style="position: relative; left: 600px; bottom: 450px; margin-right: 750px;height: 10px;">
-      <h1>O nosso café-restaurante</h1>
-      <br>
-      <p class="descricao_p">No nosso café-restaurante encontras um ambiente acolhedor, marcado por sabores tradicionais e por um espírito familiar que já faz parte da freguesia há muitos anos. Trabalhamos diariamente para oferecer refeições caseiras, preparadas com ingredientes frescos e da região, mantendo sempre a essência da culinária portuguesa. Quer seja para um café rápido, um almoço descontraído ou um jantar tranquilo, fazemos questão de receber-te com simpatia e conforto.</p>
-    </article>
+      <article style="top: 80px; left: 770px;">
+         <img src="Imagens/arroz_de_marisco.jpg" alt="Arroz De Marisco" height="200px" >
+         <h1>Arroz De Marisco</h1>
+         <p>10,20€</p>
+      </article>
 
-    <article style="background-color: burlywood;  text-align: center;  height: 1200px;  padding: 40px;">
-        <img src="Imagens/logo-café-sem-fundo.png" alt="Logo Café São Pedro" style="height: 75px; width: 105px;">
-          <br><br><br><br>
-        
-          <h1 id="contacto">+351 249 381 232</h1>
-        <h6>Chamada para a rede fixa nacional</h6>
-        <br>
-        <h1>Rua da Igreja Nº41 São Pedro, Tomar, Portugal</h1>
-        <br><br>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1594.887191143518!2d-8.363193324020283!3d39.564479004133155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd187bafaa10d33f%3A0xf479a20ac3bf2899!2sCaf%C3%A9%20Restaurante%20S%C3%A3o%20Pedro!5e0!3m2!1spt-PT!2spt!4v1765147679343!5m2!1spt-PT!2spt" width="900" height="400" style="border:2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <br><br>
+      <article style="top: 400px; left: 70px;">
+         <img src="Imagens/bacalhau_com_broa.jpg" alt="Bacalhau com broa" height="200px" >
+         <h1>Bacalhau Com Broa</h1>
+         <p>11,20€</p>
+      </article>
 
-        <h1>Serviço TAKE AWAY</h1>
+      <article style="top: 400px; left: 420px;">
+         <img src="Imagens/bacalhau_com_broa.jpg" alt="Bacalhau com broa" height="200px" >
+         <h1>Bacalhau Com Broa</h1>
+         <p>11,20€</p>
+      </article>
 
-        <h1>Aberto de Terça a Domingo</h1>
-        
-        <br>
-        
-        <h1>Todos os dias úteis</h1>
-        <h1>7:30 - 23:59</h1>
-        
-        <div style="display: flex; justify-content: center; gap: 80px; margin-top: 40px;">
-  <div style="background: #fff3e0; padding: 25px 40px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
-    <h1>Sábado</h1>
-    <h1>8:00 - 1:00</h1>
-  </div>
-  <div style="background: #fff3e0; padding: 25px 40px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
-    <h1>Domingo</h1>
-    <h1>8:00 - 23:00</h1>
-  </div>
-
+      <article style="top: 400px; left: 770px;">
+         <img src="Imagens/bacalhau_com_broa.jpg" alt="Bacalhau com broa" height="200px" >
+         <h1>Bacalhau Com Broa</h1>
+         <p>11,20€</p>
+      </article>
       
+      <!--Pratos de Carne-->
 
+      <h1 id="secao_carne" style="margin-top: 720px;">Pratos de Carne</h1>
 
-    </article>
-</section>
+      <article style="top: 850px;
+    left: 70px">
+         <img src="Imagens/bacalhau_a_bras.jpg" alt="Bacalhau à brás" height="200px" >
+         <h1>Bacalhau À Brás</h1>
+         <p>9,80€</p>
+      </article>
+
+      <!--Omeletes-->
+      <h1 id="secao_omeletes" style="margin-top: 720px;">Omeletes</h1>
+    
+      <article style="top: 1600px;
+    left: 70px">
+         <img src="Imagens/bacalhau_a_bras.jpg" alt="Bacalhau à brás" height="200px" >
+         <h1>Bacalhau À Brás</h1>
+         <p>9,80€</p>
+      </article>
+   
+   
+   
+   </section>
 </body>
 </html>
+</html>
+
 

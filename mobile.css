@@ -1,0 +1,25 @@
+/* Garante que as imagens nunca ultrapassam a largura do ecrã */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Mobile: ecrãs até 768px */
+@media screen and (max-width: 768px) {
+
+  body {
+    font-size: 16px; /* texto mais legível */
+    padding: 0 10px; /* margem interior */
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column; /* menu em coluna em vez de linha */
+    gap: 10px;
+  }
+
+  header, main, footer {
+    width: 100%;
+    padding: 10px;
+  }
+}

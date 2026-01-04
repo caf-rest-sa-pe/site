@@ -1,0 +1,49 @@
+aside{
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    width: 300px;
+    height: 600px;
+    border: 2px solid rgb(226, 226, 230);
+
+}
+aside h1{
+    color: rgba(113, 111, 108, 0.678);
+    font-size: 20px;
+    text-align: center;
+}
+aside a{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: rgb(123, 122, 121);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+}
+section{
+    background-color: white;
+    position: absolute;
+    top: 91px;
+    left: 320px;
+    height: 2000px;
+    width: 1105px;
+    border: 2px solid rgb(226, 226, 230);
+}
+section h1{
+    text-align: center;
+    color: rgba(113, 111, 108, 0.678) ;
+}
+article{
+    position: absolute;
+    padding: 5px;
+    border: 2px solid rgb(226, 226, 230);
+    
+}
+article h1{
+    color: black;
+    font-size: 18px;
+}
+article p{
+    text-align: center;
+}
